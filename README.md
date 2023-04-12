@@ -6,7 +6,7 @@ Creating/Opening Plugin folder
 on first opening you will get message about config file being created in D:\ path
 after that you need to type path and name of file
 example: D:\EzPlugin
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 after that you will get in main menu with includes:
 
 Plugin info
@@ -15,15 +15,15 @@ Localization
 
 About plugin info its easy to use and doesnt require explanation
 expect id keep it without any special characters like space , question mark and etc
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 now on Procedures
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 after you open it you will see new window called selection
 we will talk about it later
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Procedure frame contains text field , New Procedure button and New Class Button
 text field determines name of Class or Procedure
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 about Class or category
 Classes needs for sorting procedures like in other plugins or Mcreator itself (Block data,Block managment,Command parameters...)
 Upon creating Class or Procedure new object will appear in Selection with its icon
@@ -34,7 +34,7 @@ selection window will close and main frame will update having color field , api 
 api moves Class to bottom where advanced category is
 color can be 1 or 360 more about it here
 developers.google.com/blockly/guides/create-custom-blocks/block-colour
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 now about Procedures
 On opening 1 more window will appear
 Code Editor. Like always later about it
@@ -60,13 +60,13 @@ null - can be any varible
 None - removes varible completely disabling it 
 VarbielName - can be "String" , "Number" , "Boolean" and much more like block , itemstacks and etc
 Class - name of Class you made (without $)
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 small note:
 if you making block like [Get block at x,y,z]
 you would need to set Prev and Next Statement to None and keep Output
 if you making block like [Place (block) at x,y,z]
 you would need to set Output to None and keep Prev and Next as null
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 now onto arguments
 arguments used for inputing varibles,texts and other blocks
 to create one you need give it a name (textbox near New Statement)
@@ -83,9 +83,9 @@ field_input - text field for stuff to type
 input_statement - for other blocks like IF block does
 
 if type was not correct then question mark icon will apear near arg
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Code Editor
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Code editor name speaks for itself so im gonna go about main stuff:
 code ${type$name} will get arg value
 
@@ -100,9 +100,9 @@ argument - type:"input_statement" name:"is"
 code - ${statement$is}
 
 finally we finished with Procedures and now onto 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Localization 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Localization needs for describing procedure text and arg positions
 upon opening localization selection window will open with all procedures and classes to edit
 
@@ -111,9 +111,9 @@ for procedures its diffrent
 to desplay args you need %[arg_pos]
 example: "place block at x:%1 y:%2 z:%3"
 arg position counts from up to down in arg selection window
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Finished Plugin Foder 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 after you finish work with plugin and want to test it
 you need to have WinRAR or anything that can archive stuff
 
